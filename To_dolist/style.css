@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  'Barlow Condensed', sans-serif;
+}
+
+#container
+{
+   box-shadow: 0px 0px 2px black;
+    display: grid;
+    max-width: 88%;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, minmax(230px, auto));
+    margin: 10px auto;
+  
+}
+h1{
+   font-family:  'Barlow Condensed', sans-serif;
+   font-weight: lighter;
+   opacity: 0.9;
+}
+.row1{
+
+    grid-column: 1 / 5;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 25px;
+}
+#input1
+{
+    width: 100%;
+    padding: 10px 0;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+  
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+#input1::placeholder
+{
+    opacity: 0.9;
+    transition: top 0.3s, font-size 0.3s;
+}
+#input1:focus{
+    border-bottom: 2.1px solid rgb(7, 202, 7);
+   
+    transition: top 0.3s, font-size 0.3s;
+    pointer-events: none; 
+    padding-top: 30px;
+    
+  
+    
+}
+
+#input1:focus::placeholder{
+    position: absolute;
+    color: rgb(7, 202, 7);
+    top: -1px;
+    pointer-events: none; 
+  
+
+}
+
+button.btn1
+{
+    border-radius: 3px;
+    width: 130px;
+    outline: none;
+    border: none;
+    background-color: #39a355;
+    box-shadow: 1px 0px 4px black;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    height: 36px;
+    transition: 0.9s ease;
+}
+button.btn1::before
+{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: gold;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 3px;
+    z-index: -1;
+    transition: 0.4s ease;
+
+}
+button.btn1:hover{
+    color: black;
+}
+button.btn1:hover::before
+{
+    
+    width: 100%;
+}
+h1{
+    margin-top: -25px;
+}
+.row2{
+    border: 1px solid black;
+    grid-column: 1 / 5;
+    padding: 25px;
+    border: none;
+    border-top: 1px solid rgba(128, 128, 128, 0.288);
+
+}
+
+
+
+#input2
+{
+    width: 95%;
+    margin-left: 10px;
+    padding: 10px 0;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+  
+    margin-top: 20px;
+    position: relative;
+    
+}
+#input2::placeholder
+{
+    opacity: 0.9;
+    transition: top 0.3s, font-size 0.3s;
+}
+#input2:focus{
+    border-bottom: 2.1px solid rgb(7, 202, 7);
+   
+    transition: top 0.3s, font-size 0.3s;
+    pointer-events: none; 
+    padding-top: 30px;
+    
+  
+    
+}
+
+#input2:focus::placeholder{
+    position: absolute;
+    color: rgb(7, 202, 7);
+    top: -1px;
+
+}
+
+button.btn2
+{
+    border-radius: 3px;
+    width: 130px;
+    outline: none;
+    border: none;
+    background-color: black;
+    box-shadow: 1px 0px 4px black;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    height: 36px;
+    transition: 0.9s ease;
+}
+button.btn1::before
+{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: gold;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 3px;
+    z-index: -1;
+    transition: 0.4s ease;
+
+}
+button.btn1:hover{
+    color: black;
+}
+button.btn1:hover::before
+{
+    
+    width: 100%;
+}
+
+/* list items */
+
+ul
+{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+li.item
+{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    padding: 10px 20px 5px 15px;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li div.edit{
+
+display: flex;
+min-height:40px;
+flex-flow: column;
+justify-content: space-between;
+
+}
+
+i.fa {
+color: red;
+transition: 0.1s;
+
+}
+
+i.fa-solid{
+    text-align: center;
+    padding:0px 0px, 0px 0px ;
+    font-size: 10px;
+    color: rgb(7, 202, 7);
+    padding:0px 3px 0px 0px;
+
+}
+.edit2 {
+    display: flex;
+    align-items: baseline;
+    color: rgba(24, 5, 5, 0.673);
+    max-width: 120px;
+    font-size: 11.5px;
+ 
+    justify-content: space-around;
+}
+.edit1{
+    margin-left: 0px;
+display: flex;
+gap: 10px;
+}
+
+.edit.add{
+    text-decoration: line-through;
+    color: rgba(24, 5, 5, 0.529);
+}
+i:hover{
+    color: gold;
+}
+@media  (max-width: 500px) {
+    
+    button{
+        max-width: 100px
+        
+    }
+}

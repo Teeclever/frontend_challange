@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Tee_clever</title>
+
+</head>
+<body> 
+    
+    
+<div id="container">
+    <!-- First Section -->
+    <div class="row1">
+        <h1>To-Do List</h1>
+        <div class="tasks">
+            <!-- Form for adding new tasks -->
+            <form action="#">
+                <input type="text" placeholder="New Task" id="input1"  class="tee">
+                <button class="btn1">ADD TASK</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Second Section -->
+    <div class="row2">
+        <!-- Filter menu for tasks -->
+        <div class="filter-menu">
+            <h2>Tasks</h2>
+            <input type="text" id="input2" placeholder="Filter Tasks">
+        </div>
+
+        <!-- Menu list -->
+        <div class="menu_list">
+            <ul class="menu">
+
+
+            <!-- Task items will be added dynamically here -->
+
+            <!-- this is just a testing list item -->
+                   <!-- <li class="item"> <div class="edit"> <span  class="edit1"> <input type="checkbox" id="tick" > Tasks </span><span class="edit2"><i class="fa-solid fa-thin fa-clock"></i><span>7 Dec 2:40:59 pm</span></span></div>             
+             <a href="#" class="del" ><i class="fa fa-remove"></i></a></li>
+ -->
+
+            </ul>            
+            <hr>
+
+            <button class="btn2">CLEAR TASK</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <!-- this first script loads from local storage  -->
+    
+<script src="./load_fromlocalstorage.js"></script>
+
+<!-- this add list from the user and also storage to local storage -->
+<script src="./app.js">
+</script>
+
+<!-- this generate data and time for each submit -->
+<script src="./date.js"></script>
+
+
+<!-- this is just a font -->
+<script src="https://kit.fontawesome.com/26554798c9.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
