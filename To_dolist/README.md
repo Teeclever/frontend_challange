@@ -36,3 +36,6 @@ This application is built using HTML, CSS, and Vanilla JavaScript. The main Java
 Contributing
 
 This is a basic project. If you have suggestions for improvements or features, feel free to fork the project and submit a pull request with your changes.
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a775f06d-c6df-4101-9923-1d6c69e7f344/deploy-status)](https://app.netlify.com/sites/todo-listtx/deploys)
