@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="head">
+                <h2>Weather Application</h2>
+        </header>
+
+        <div class="contain">
+
+            <div class="part1">
+              
+                    <label for="val">Enter a City Name: </label>
+                    <div class="check">
+                    <input type="text" id="val" placeholder="Change location.... "><a id="sub"> <img src="./images/search.png" alt=""> </a>
+                    </div>
+
+                    <p id="see">Location Not found</p>
+                    
+                    <h1 id="country">NG</h1>
+                    <p id="cloud">few clouds</p>
+                    
+            </div>
+            <div class="part2">
+
+                <div class="con1">
+                <h2><span id="location">Londn</span> <span id="date">(2023-06-19)</span></h2>
+                <p>Temperature: <span id="temp">18.71</span> <sup>o</sup>C</p>
+                <p>Wind: <span id="wind">4.31</span> M/S <img src="./images/wind.png" alt=""></p>
+                <p>Humidity: <span id="hum">76</span>% <img src="./images/humidity.png" alt=""></p>
+                <p>Date: <span id="date2">22, Monday December 2023 12:50:01pm</span></p>
+            </div>
+            <div class="con2">
+                <img src="./images/clouds.png" alt="" id="val2">
+            </div>
+
+
+            </div>
+
+        </div>
+
+        <footer>&copy Teeclever</footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./app.js/weather.js"></script>
+<script src="./app.js/Storage.js"></script>
+<script src="./app.js/Ui_actions.js"></script>
+<script src="./app.js/app.js"></script>
+</body>
+</html>
