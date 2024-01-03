@@ -1,7 +1,7 @@
 ## Weather App
 * Overview
 
-The Weather App is a simple web application that provides real-time weather information for a specified city. It utilizes the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.
+The Weather App is a simple web application that provides real-time weather information for a specified city. It utilizes the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface...
 Features
 
     Current Weather Information: View the current temperature, wind speed, humidity, cloud cover, and weather description for a chosen city.
