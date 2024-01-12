@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/styles1.css" />
+    <link rel="stylesheet" href="./css/grid1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=League+Spartan&display=swap">
+    <link rel="stylesheet" href="./css/general.css">
+
+
+    <title>Calculator App</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="grid">
+
+        <!-- top row -->
+        <div class="row1">
+          <div class="r1">
+            <h2>calc</h2>
+          </div>
+          <div class="r2">
+
+            <span class="thm">THEME</span>
+            <div class="tickbar">
+            <div class="num">
+              <span class="num1">1</span>
+              <span class="num1">2</span>
+              <span class="num1">3</span>
+            </div>
+            
+            <div class="tick">
+              <span class="bar bar1"></span>
+              <span class="bar bar2"></span>
+              <span class="bar bar3"></span>
+            </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- the display roww -->
+        <div class="row2">
+          <span class="time">12: 30: 50 AM</span>
+          <div class="cal">
+          <span class="input"></span><span class="cursor"></span>
+          
+          <span class="input1"></span>
+          
+        </div>
+        </div>
+
+        <!-- button row -->
+        <div class="row3">
+
+          <input type="button" value="9">
+          <input type="button" value="8">
+          <input type="button" value="7">
+          <input type="button" value="Del" id="del">
+          <input type="button" value="6">
+          <input type="button" value="5">
+          <input type="button" value="4">
+          <input type="button" value="+">
+          <input type="button" value="3">
+          <input type="button" value="2">
+          <input type="button" value="1">
+          <input type="button" value="-">
+          <input type="button" value=".">
+          <input type="button" value="0">
+          <input type="button" value="/">
+          <input type="button" value="X">
+          <input type="button" value="C" id="danger">
+          <input type="button" value="%">
+          <input type="button" value="=" id="eqa">
+
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >@Teeclever</a
+      >
+    </div>
+
+
+
+    <script type="module" src="./app/app.js"></script>
+  </body>
+</html>
