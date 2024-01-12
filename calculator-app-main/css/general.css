@@ -73,7 +73,7 @@ span {
  
     display: flex;
 border-radius: 30px;
-background-color:  hsl(223, 31%, 20%);
+
 padding: 2.5px 2px;
 }
 .tick .bar
@@ -95,7 +95,7 @@ cursor: pointer;
     /* border: 1px solid black; */
     display: block;
    
-    background-color: hsl(222, 26%, 31%);
+
     align-items:flex-start;
   
 }
