@@ -42,8 +42,8 @@ span {
 @media (max-width: 600px) {
     .grid
 {
-    width: 320px;
-   min-height: 450px;
+        max-width: 320px;
+     height: 450px;
     /* border: 1px solid black; */
     display: grid;
     margin: 0  auto;
