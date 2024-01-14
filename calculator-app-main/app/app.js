@@ -14,7 +14,7 @@ const action = new Ui_action();
 
 // Event listener for theme change
 const themeChange = document.querySelector('.tick').addEventListener('click', (e) => {
-  // Call the method from Ui_action that changes the theme colors
+  // Call the method from Ui_action that changes the theme color
   action.changeTheme(e);
 });
 
