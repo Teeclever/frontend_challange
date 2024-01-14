@@ -23,7 +23,7 @@ setInterval(function () {
   action.time.innerHTML = action.timeval();
 }, 1000);
 
-// Cursor blinking every 900 milliseconds
+// Cursor blinking every 900 millisecondss
 setInterval(function () {
   const cursorElement = document.querySelector('.cursor');
   if (cursorElement.textContent === '|') {
