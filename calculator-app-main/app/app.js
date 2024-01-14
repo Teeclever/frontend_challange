@@ -18,7 +18,7 @@ const themeChange = document.querySelector('.tick').addEventListener('click', (e
   action.changeTheme(e);
 });
 
-// Time display update every second
+// Time display update everyy second
 setInterval(function () {
   action.time.innerHTML = action.timeval();
 }, 1000);
